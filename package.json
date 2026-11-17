@@ -1,0 +1,20 @@
+{
+  "name": "weixin-minigame-helper-release",
+  "version": "1.0.0",
+  "private": true,
+  "description": "微信小游戏开发助手 · 无头环境（MUSE/云沙箱）移植包",
+  "license": "MIT",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "check": "bash setup.sh --check",
+    "proxy": "node bin/preview-proxy.js",
+    "test": "node bin/smoke-test.js",
+    "test:fast": "node bin/smoke-test.js --no-run"
+  },
+  "dependencies": {
+    "@weadmin/weixin-minigame-helper-mcp": "^0.1.45"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

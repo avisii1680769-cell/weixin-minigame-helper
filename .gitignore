@@ -1,0 +1,6 @@
+node_modules/
+.run/
+.preview-url
+mcp-config.json
+shot.jpg
+*.log
